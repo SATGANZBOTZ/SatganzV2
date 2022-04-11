@@ -223,7 +223,7 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 		}
 		
 		const buttonsDefault = [
-			{ urlButton: { displayText: `Website`, url : `` } },
+			{ urlButton: { displayText: `Website`, url : `https://satzzwashere.kurniawansatria.repl.co` } },
 			{ urlButton: { displayText: `Script!`, url : `https://github.com/SATGANZBOTZ/SatganzV2` } },
 			{ quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } }
